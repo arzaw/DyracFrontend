@@ -1,0 +1,83 @@
+<body>
+
+    <div class="container" style="  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3); margin-top: 30px;">
+        <form style="padding: 10px 10px 10px 10px;">
+            <h2 class="text-center" style="background-color: white; color:grey ;">Edit Profile</h2>
+        <div class="row jumbotron">
+            <div class="col-sm-6 form-group">
+                <label for="name-f">First Name</label>
+                <input type="text" class="form-control" name="fname" id="name-f" placeholder="Enter your first name." required>
+            </div>
+            <div class="col-sm-6 form-group">
+                <label for="name-l">Last name</label>
+                <input type="text" class="form-control" name="lname" id="name-l" placeholder="Enter your last name." required>
+            </div>
+            <div class="col-sm-6 form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email." required>
+            </div>
+            <div class="col-sm-6 form-group">
+                <label for="address-1">College</label>
+                <select class="form-control custom-select browser-default" aria-placeholder="College Name">
+                    <option value="NA">Select College</option>
+                    <option value="IIT Ropar">IIT Ropar</option>
+                    <option value="JMIT Radaur">JMIT Radaur</option>                    
+                    <option value="NIT JLR">NIT Jalandhar</option>
+                    <option value="NIT KKR">NIT Kurukshetra</option>
+                    <option value="UIET Kurukshetra">UIET Kurukshetra</option>
+
+                </select>            </div>
+            <div class="col-sm-6 form-group">
+                <label for="address-2">Address</label>
+                <input type="address" class="form-control" name="address" id="address-2" placeholder="Current Address" required>
+            </div>
+            <div class="col-sm-6 form-group">
+                <label for="customRange2" class="form-label">Analytics Knowledge [ 0-5 ]</label>
+                <input type="range" class="form-range" min="0" max="5" id="customRange2" required>
+            </div>
+            
+            <div class="col-sm-6 form-group">
+                <label for="Country">Year Of Passing</label>
+                <select class="form-control custom-select browser-default">
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+
+                </select>
+            </div>
+            <div class="col-sm-6 form-group">
+                <label for="Branch">Branch</label>
+                <input type="text" name="Branch" class="form-control" id="Branch" placeholder="Branch" required>
+            </div>
+            <div class="col-sm-6 form-group">
+                <label for="sex">Gender</label>
+                <select id="sex" class="form-control browser-default custom-select">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="unspesified">Unspecified</option>
+            </select>
+            </div>
+            <div class="col-sm-2 form-group">
+                <label for="cod">Country code</label>
+                <select class="form-control browser-default custom-select">
+                   
+  <option data-countryCode="IN" value="91">India (+91)</option>
+  
+                </select>
+            </div>
+            <div class="col-sm-4 form-group">
+                <label for="tel">Phone</label>
+                <input type="tel" name="phone" class="form-control" id="tel" placeholder="Enter Your Contact Number." required>
+            </div>
+            
+            
+
+            <div class="col-sm-12 form-group mb-0">
+               <button class="btn btn-primary float-right">Submit</button>
+            </div>
+            
+        </div>
+        </form>
+    </div>
+
+</body>
